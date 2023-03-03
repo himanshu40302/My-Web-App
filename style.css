@@ -2,9 +2,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(img.jpg);
+    /* background-image: url(img.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     height:100vh;
   }
   
@@ -20,7 +20,7 @@ body {
     border-radius:50%;
     background-color: rgba(63, 59, 59, 0.4);
     top:90px;
-    left:-10px;
+    
   }
   
   input#click {
@@ -60,7 +60,7 @@ body {
     top:-40px;
     left:-10px;
     transform-origin: bottom left;
-    transition: .3s;
+    transition: .8s;
     cursor: pointer;
   }
   
@@ -93,18 +93,17 @@ body {
   
   .wishes {
     position: absolute;
-    transition: 0.99s;text-shadow: 2px 3px rgb(19, 19, 19);
-    font-family: fantasy;
+    transition: 0.99s;text-shadow: 1px 1px rgb(74, 9, 9);
     font-weight: 500;
     color: #eb6a6a;
     font-size: 22px;
-    text-align: center;
+    text-align:center;
     z-index:-1;
-    left:5px;
+    
   }
   
   #click:checked ~ .wishes {
-    transform: translateY(-115px);
+    transform: translateY(-125px);
   }
   
   #click:checked ~ .sparkles {
