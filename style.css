@@ -103,7 +103,7 @@ body {
   }
   
   #click:checked ~ .wishes {
-    transform: translateY(-125px);
+    transform: translateY(-130px);
   }
   
   #click:checked ~ .sparkles {
