@@ -15,7 +15,7 @@ body {
   .birthday-gift:before {
     content:"";
     position: absolute;
-    width: 170px;
+    width: 27px;
     height:25px;
     border-radius:50%;
     background-color: rgba(63, 59, 59, 0.4);
@@ -30,7 +30,7 @@ body {
   .gift {
     position: relative;
     width: 150px;
-    height: 105px;
+    height: 130px;
     background-color: #1c93a0;
     
   }
@@ -39,7 +39,7 @@ body {
     content:"";
     position: absolute;
     width: 25px;
-    height: 100px;
+    height: 130px;
     background-color: #cf9a13;
     left:59px;
   }
