@@ -30,7 +30,7 @@ body {
   .gift {
     position: relative;
     width: 150px;
-    height: 100px;
+    height: 105px;
     background-color: #1c93a0;
     
   }
@@ -94,17 +94,17 @@ body {
   .wishes {
     position: absolute;
     transition: 0.99s;text-shadow: 2px 3px rgb(19, 19, 19);
-    font-family: cursive;
+    font-family: fantasy;
     font-weight: 500;
     color: #eb6a6a;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
     z-index:-1;
     left:5px;
   }
   
   #click:checked ~ .wishes {
-    transform: translateY(-100px);
+    transform: translateY(-110px);
   }
   
   #click:checked ~ .sparkles {
